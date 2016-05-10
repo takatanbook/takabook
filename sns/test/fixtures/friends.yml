@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  friend_user_one: MyString
+  friend_user_two: MyString
+  friend_user_status: 1
+
+two:
+  friend_user_one: MyString
+  friend_user_two: MyString
+  friend_user_status: 1

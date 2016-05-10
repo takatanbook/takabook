@@ -1,0 +1,27 @@
+<div class="test" style="background-color: #00FF00">
+    <div class="row">
+        <div class="col-md-offset-5 col-md-3">
+        <%= form_tag sessions_path do %>
+            <div class="form-login">
+            <h4 style="color: #00FF00">ログイン</h4><br />
+			<h6 style="font-size: 10px; color: red"><%= alert %></h6>
+            <div style="text-align: center;">
+            <h5>ユーザー名</h5>
+            <%= text_field_tag 'user_email'%>
+            </br>
+            	<h5>パスワード</h5>
+            	<%= password_field_tag 'password'%>
+            </br>
+            </div>
+            <div class="wrapper">
+            <br /><br />
+            <span class="group-btn">     
+                <%= submit_tag 'ログイン'%>
+            </span>
+            </div>
+            </div>
+         <% end %>
+        
+        </div>
+    </div>
+</div>
